@@ -9,6 +9,10 @@ html, body {
   color: #000000;
 }
 
+img {
+  max-width: 50%;
+}
+
 nav {
   position: fixed;
   margin: 0;
