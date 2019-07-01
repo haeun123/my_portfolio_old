@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Open Sans', "Helvetica";
+  color: #000000;
+}
+
+nav {
+  position: fixed;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#intro p {
+  width: 700px;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+#hollylist {
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    text-align: left;
+    padding-left: 15px;
+
+}
+
+#navlist, #footerlist {
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    padding-right: 30px;
+}
+
+.navitem, .hollyitem {
+  padding: 5px;
+  font-size: 1em;
+  text-decoration: none;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+.navitem, .hollyitem, .footerelem a, a:link {
+  color: #666;
+  text-decoration: none;
+}
+
+.navitem, .hollyitem .footerelem a, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.navitem, .hollyitem, .footerelem a, a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+.navitem, .hollyitem, .footerelem a, a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+main {
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+footer {
+  background-color: #666;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  color: #FFF;
+}
+
+#footerlist {
+  text-align: left;
+}
+
+#backtotop {
+}
+
