@@ -41,12 +41,17 @@ a {
 
 }
 
-#navlist, #footerlist {
+#navlist {
     list-style-position: inside;
     list-style-type: none;
     display: inline-block;
     float: right;
     padding-right: 30px;
+}
+
+#footerlist {
+    list-style-position: inside;
+    list-style-type: none;
 }
 
 .navitem, .hollyitem {
@@ -86,7 +91,7 @@ main {
 footer {
   background-color: #666;
   width: 100%;
-  height: 300px;
+  height: 200px;
   text-align: center;
   padding: 20px;
   color: #FFF;
