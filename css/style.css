@@ -9,10 +9,6 @@ html, body {
   color: #000000;
 }
 
-img {
-  max-width: 50%;
-}
-
 nav {
   position: fixed;
   margin: 0;
@@ -86,6 +82,29 @@ main {
   padding-top: 50px;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.casestudy-container {
+  text-align: center;
+}
+
+.casestudy-content {
+  max-width: 800px;
+  width: 75%;
+  display: inline-block;
+  text-align: left;
+}
+
+.img-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 footer {
