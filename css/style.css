@@ -2,11 +2,12 @@ html, body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 1.5rem;
   font: inherit;
   vertical-align: baseline;
   font-family: 'Open Sans', "Helvetica";
   color: #000000;
+  overflow-x: hidden;
 }
 
 nav {
@@ -20,10 +21,43 @@ a {
   text-decoration: none;
 }
 
-#intro p {
-  width: 700px;
+/*
+
+#sect-feeding {
+  background-color: #ffeded
+}
+
+#sect-shyft {
+  background-color: #fffcdb;
+}
+
+#sect-adventure {
+  background-color: #fffcdb;
+}
+
+#sect-ahava {
+  background-color: #ffeded;
+}
+
+#sect-dataviz {
+  background-color: #fffcdb;
+}
+
+#sect-bakeoff {
+  background-color: #fffcdb;
+}  
+
+*/
+
+#intro-container {
+  text-align: center;
+  display: block;
+}
+#intro-content {
+  text-align: left;
+  display: inline-block;
+  max-width: 800px;
   font-size: 1.5rem;
-  padding-left: 20px;
   margin-top: 50px;
 }
 
@@ -84,6 +118,19 @@ main {
   padding-right: 25px;
 }
 
+#works-menu {
+  text-align: center;
+}
+
+.case-container {
+  display: inline-block;
+  max-width: 1000px;
+  text-align: left;
+  padding: 35px;
+  max-height: 250px;
+}
+
+/* for individual case study pages */
 .casestudy-container {
   text-align: center;
 }
@@ -94,6 +141,7 @@ main {
   display: inline-block;
   text-align: left;
 }
+/* ****************************** */
 
 .img-container {
   width: 100%;
