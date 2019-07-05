@@ -59,6 +59,7 @@ a {
   max-width: 800px;
   font-size: 1.5rem;
   margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 #hollylist {
@@ -147,6 +148,8 @@ main {
   width: 100%;
   height: auto;
   overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .img-container img {
@@ -162,7 +165,7 @@ footer {
   text-align: center;
   padding: 20px;
   color: #FFF;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 #footerlist {
