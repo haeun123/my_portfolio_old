@@ -21,34 +21,6 @@ a {
   text-decoration: none;
 }
 
-/*
-
-#sect-feeding {
-  background-color: #ffeded
-}
-
-#sect-shfit {
-  background-color: #fffcdb;
-}
-
-#sect-adventure {
-  background-color: #fffcdb;
-}
-
-#sect-ahava {
-  background-color: #ffeded;
-}
-
-#sect-dataviz {
-  background-color: #fffcdb;
-}
-
-#sect-bakeoff {
-  background-color: #fffcdb;
-}  
-
-*/
-
 #intro-container {
   text-align: center;
   display: block;
@@ -69,7 +41,6 @@ a {
     float: left;
     text-align: left;
     padding-left: 15px;
-
 }
 
 #navlist {
@@ -156,6 +127,21 @@ main {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+#journey-container img{
+  display: inline-block;
+  max-width: 45%;
+  height: auto;
+  margin: 15px;
+}
+
+#brainstorm-container img {
+  display: inline-block;
+  max-width: 45%;
+  height: auto;
+  margin: 10px;
+  vertical-align: middle;
 }
 
 footer {
