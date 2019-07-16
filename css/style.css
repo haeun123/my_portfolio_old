@@ -56,11 +56,6 @@ a {
     padding-right: 30px;
 }
 
-#footerlist {
-    list-style-position: inside;
-    list-style-type: none;
-}
-
 .navitem, .hollyitem {
   padding: 5px;
   font-size: 1em;
@@ -180,13 +175,12 @@ main {
 }
 
 /* for individual case study pages */
-.casestudy-container {
+.casestudy-container, #about_main {
   text-align: center;
 }
 
-.casestudy-content {
+.casestudy-content, #about_main_content {
   max-width: 800px;
-  width: 75%;
   display: inline-block;
   text-align: left;
 }
@@ -221,20 +215,43 @@ main {
   vertical-align: middle;
 }
 
+#resume-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 5px solid #b0e0e6;
+}
+
+#regent-square-imgs, .rs-sub-img-container {
+  text-align: center;
+  display: inline-block;
+}
+
+.rs-sub-img-container {
+  margin-bottom: 20px;
+}
+
+.rs-sub-img-container img {
+  display: block;
+  width: 100%;
+}
+
+
 footer {
-  background-color: #ebebeb;
   width: 100%;
   height: 200px;
   text-align: center;
   padding: 20px;
   color: #000;
   margin-top: 100px;
+  background-color: #f7f7f7;
 }
 
 #footerlist {
   text-align: left;
+  list-style-position: inside;
+  list-style-type: none;
 }
-
 #backtotop {
 }
 
